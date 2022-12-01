@@ -9,10 +9,15 @@ body, html {
 
 .logga {
   margin-top: 60px; 
+   position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 .podname {
-
+  position:relative;
+  top:-550px;
+ 
 }
 
 /*.descr {*/
@@ -32,4 +37,17 @@ body, html {
   align-items: center;
   /*justify-content: flex-start;*/
   justify-content: center;
+  
+}
+
+.senaste {
+  position:relative;
+  top:-140px;
+
+}
+
+.avsnitt{
+  position:relative;
+  top:-150px;
+
 }
