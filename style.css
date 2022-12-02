@@ -1,9 +1,44 @@
-.About {
+.about {
     display: flex;
     justify-content: center;
 }
 
-.host{
+.container {
+    
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
 }
+
+.text {
+    position: absolute;
+    bottom: 100x;
+    left: 140px;
+}
+
+.text2 {
+    position: absolute;
+    bottom: 100x;
+    left: 420px;
+}
+
+.text3 {
+    position: absolute;
+    bottom: 100x;
+    left: 705px;
+}
+
+.text4 {
+    position: absolute;
+    bottom: 100x;
+    left: 990px;
+}
+
+.avsnitt {
+   margin-left: 300px;
+}
+
+.avsnitt1 {
+    display: flex;
+    justify-content: center;
+ }
+
