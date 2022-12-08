@@ -1,5 +1,5 @@
 body {
-    font-family: "Times New Roman", Georgia, Serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,25 +20,33 @@ h1, h2, h3, h4, h5, h6 {
 .text {
     position: absolute;
     bottom: 100x;
-    left: 155px;
+    left: 190px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .text2 {
     position: absolute;
     bottom: 100x;
-    left: 445px;
+    left: 480px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .text3 {
     position: absolute;
     bottom: 100x;
-    left: 715px;
+    left: 755px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .text4 {
     position: absolute;
     bottom: 100x;
-    left: 985px;
+    left: 1025px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .avsnitt {
@@ -47,4 +55,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .hej{
     margin-right: 300px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
 }
