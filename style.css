@@ -13,38 +13,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-   display: flex;
-   justify-content: space-between;
+   vertical-align: top;
+   display: inline-block;
+   text-align: center;
 }
 
 .text {
-    position: absolute;
-    bottom: 100x;
-    left: 190px;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-}
-
-.text2 {
-    position: absolute;
-    bottom: 100x;
-    left: 480px;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-}
-
-.text3 {
-    position: absolute;
-    bottom: 100x;
-    left: 755px;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-}
-
-.text4 {
-    position: absolute;
-    bottom: 100x;
-    left: 1025px;
+    display: block;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
@@ -53,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
    margin-left: 300px;
 }
 
-.hej{
+.rubrik{
     margin-right: 300px;
 }
 

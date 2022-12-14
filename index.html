@@ -15,7 +15,7 @@
     <a href="#home" class="w3-bar-item w3-button">Let's Talk Tech <img src="images/logga.png" alt="logga" width="50" height="50"> </a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#About" class="w3-bar-item w3-button">About</a>
+      <a href="#Om" class="w3-bar-item w3-button">Om oss</a>
       <a href="#Avsnitt" class="w3-bar-item w3-button">Avsnitt</a>
       <a href="#Kontakt" class="w3-bar-item w3-button">Kontakt</a>
     </div>
@@ -23,8 +23,8 @@
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="images/Neon.jpg" alt="neon" width="1600" height="800">
+<header class="w3-display-container w3-content w3-wide" style="max-width:100%;min-width:100%" id="home">
+  <img class="w3-image" src="images/Neon.jpg" alt="neon">
  
 </header>
 
@@ -33,30 +33,24 @@
 
 <!-- Team -->
   <!-- About Section -->
-  <div class="w3-container w3-padding-64" id="About">
-    <h1 class="w3-center">About Us</h1><br>
+  <div class="w3-container w3-padding-64" id="Om">
+    <h1 class="w3-center">Om oss</h1><br>
     <div class="container">
        <img src="images/Raham.jpg" alt="Raham" width="250" height="190">
+       <span class="text">Raham</span>
+    </div>
+    <div class="container">
        <img src="images/Ivar.jpg" alt="Ivar" width="250" height="190">
+       <span class="text">Ivar</span>
+    </div>
+    <div class="container">
        <img src="images/Jan.jpg" alt="Jan" width="250" height="190">
+       <span class="text">Jan</span>
+    </div>
+    <div class="container">
        <img src="images/Lowe.jpg" alt="Lowe" width="250" height="190">   
+       <span class="text">Lowe</span>
     </div>
-  
-  <div class="text">
-  <p>RAHAM</p>
-  </div>
-  
-  <div class="text2">
-    <p>IVAR</p>
-    </div>
-  
-  <div class="text3">
-  <p>JAN</p>
-  </div>
-  
-  <div class="text4">
-    <p>LOWE</p>
-  </div>
     
   <br>
   <br>
@@ -67,9 +61,9 @@
   </div>
   <hr>
   
-  <!-- Avsnitt Section -->
+  <!-- Episode Section -->
   <div class="avsnitt w3-container w3-padding-64" id="Avsnitt">
-    <div class="hej">
+  <div class="rubrik">
     <h1 class="w3-center">Avsnitt</h1><br>
   </div>
      
@@ -81,14 +75,14 @@
     </audio>
     
     <h4>Avsnitt 2</h4>
-    <p class="w3-text-grey">What AI can and can't do</p><br>
+    <p class="w3-text-grey">Vad AI kan och inte kan göra.</p><br>
     <img src="images/robot.jpg" alt="robot" width="150" height="150"><br><br>
     <audio controls autoplay>
       <source src="amazonavsnitt.ogg" type="audio/ogg">
     </audio>
        
     <h4>Avsnitt 3</h4>
-    <p class="w3-text-grey">Digital borders</p><br>
+    <p class="w3-text-grey">Digitala gränser.</p><br>
     <img src="images/jannik-fAwcMpTjiRk-unsplash.jpg" alt="border" width="150" height="150"><br><br>
     <audio controls autoplay>
       <source src="amazonavsnitt.ogg" type="audio/ogg">
@@ -102,7 +96,7 @@
     </audio>
     
     <h4>Avsnitt 5</h4>
-    <p class="w3-text-grey">Exploring the city Google couldn't buy. </p>   
+    <p class="w3-text-grey">Utforskar staden google inte kunde köpa.</p>   
     <img src="images/G.jpg" alt="google" width="150" height="150"><br><br>
     <audio controls autoplay>
       <source src="amazonavsnitt.ogg" type="audio/ogg">
@@ -113,30 +107,33 @@
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-64" id="Kontakt">
-    <h1 class="w3-center">Contact</h1><br>
+    <h1 class="w3-center">Kontakt</h1><br>
     <div class="socialMedia">
-      <img src="images/insta.png" alt="instagram" width="50" height="50">
-      <img src="images/rss.png" alt="instagram" width="50" height="50">
-      <img src="images/twitter.png" alt="instagram" width="50" height="50">
-      <img src="images/spotify.png" alt="instagram" width="50" height="50">
-      
+      <a href="mailto:roger.nilsson@disroot.org">
+        <img src="images/email.png" alt="email" width="50" height="50">
+      </a>
+
+      <a href="https://www.instagram.com/drdisrespect">
+        <img src="images/insta.png" alt="instagram" width="50" height="50">
+      </a>
+
+      <a href="https://invidious.snopyta.org/feed/channel/UCcJL2ld6kxy_nuV1u7PVQ0g">
+        <img src="images/rss.png" alt="rss" width="50" height="50">
+      </a>
+
+      <a href="https://nitter.snopyta.org/DrDisrespect">
+        <img src="images/twitter.png" alt="twitter" width="50" height="50">
+      </a>
+
+      <a href="https://open.spotify.com/artist/0HA5xUfOC7tVwJVzwvFUg3">
+        <img src="images/spotify.png" alt="spotify" width="50" height="50">
+      </a>
+
     </div>
-    
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="What do you want us to talk about?"></p>
-      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
-    </form>
-    </div>
-  
-
-
-
+  </div>
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
   <img src="images/logga.png" alt="logga" width="50" height="50"> <p>Let's Talk Tech</p>
 </footer>
-
 </body>
 </html>
